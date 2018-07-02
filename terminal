@@ -1,0 +1,45 @@
+vishnu@vishnu-Lenovo-G50-70:~$ mkdir Devops
+vishnu@vishnu-Lenovo-G50-70:~$ ls
+addition.c  Devops     examples.desktop  Music     Templates
+Desktop     Documents  mm                Pictures  test
+devops      Downloads  mozilla.pdf       Public    Videos
+vishnu@vishnu-Lenovo-G50-70:~$ cd Devops
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ touch LinuxCommands
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ ls
+LinuxCommands
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ pwd
+/home/vishnu/Devops
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ mkdir LinuxOS
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ ls
+LinuxCommands  LinuxOS
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ cd LinuxOS
+vishnu@vishnu-Lenovo-G50-70:~/Devops/LinuxOS$ touch About
+vishnu@vishnu-Lenovo-G50-70:~/Devops/LinuxOS$ nano About
+vishnu@vishnu-Lenovo-G50-70:~/Devops/LinuxOS$ ls
+About  AboutTCC
+vishnu@vishnu-Lenovo-G50-70:~/Devops/LinuxOS$ mv LinuxOS Linux
+mv: cannot stat 'LinuxOS': No such file or directory
+vishnu@vishnu-Lenovo-G50-70:~/Devops/LinuxOS$ cd ..
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ mv LinuxOS Linux
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ cd Linux
+vishnu@vishnu-Lenovo-G50-70:~/Devops/Linux$ pwd
+/home/vishnu/Devops/Linux
+vishnu@vishnu-Lenovo-G50-70:~/Devops/Linux$ ls -l
+total 4
+-rw-rw-r-- 1 vishnu vishnu  0 Jul  2 22:29 About
+-rw-rw-r-- 1 vishnu vishnu 11 Jul  2 22:32 AboutTCC
+vishnu@vishnu-Lenovo-G50-70:~/Devops/Linux$ cd ..
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ touch About
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ ls
+About  Linux  LinuxCommands
+
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ nano About
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ ls
+About  Linux  LinuxCommands
+
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ cp About Linux
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ mv About Devops
+vishnu@vishnu-Lenovo-G50-70:~/Devops$ ls
+Devops  Linux  LinuxCommands
+
+
